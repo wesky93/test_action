@@ -19,7 +19,7 @@ jobs:
       - name: run one more time
         id: getpip
         run: |
-          echo 'second' |
+          echo 'second'
           pip3 list
       - name: run node
         id: node
